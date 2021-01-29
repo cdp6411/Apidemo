@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
                     Intent buttonintent = new Intent(MainActivity.this, Dashboard.class);
                     startActivity(buttonintent);
                     finish();
-
+                    Toast.makeText(MainActivity.this, "hello", Toast.LENGTH_SHORT).show();
                     Shared shared = new Shared(getApplicationContext());
                     shared.secondtime();
                 }
