@@ -26,7 +26,7 @@ public class Dashboard extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
 
-        RecyclerView recyclerView =findViewById(R.id.recyclerview);
+        RecyclerView recyclerView =findViewById(R.id.recyclerview1);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setHasFixedSize(true);
 
